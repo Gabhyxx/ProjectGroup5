@@ -52,3 +52,15 @@ div{
     text-align: center;
     color: white;
 }
+
+main{
+    background-color: #6b0505d9;
+    height: 2000px;
+
+}
+h1{
+    background-color:antiquewhite;
+    font-size: 60px;
+    color: #ac0101;
+    font-family: Arial, Helvetica, sans-serif;
+}
