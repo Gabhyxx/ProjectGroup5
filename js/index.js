@@ -1,26 +1,20 @@
-const requestURL = '../json/games.json';
+const requestURL = "../json/games.json";
 
-async function fetchGamesJson()
-{
-    try
-    {
-        const response = await fetch(requestURL);
-        if (!response.ok) 
-        {
-            throw new Error(`Error en la peticion al JSON ${response.status}`);
-        }
-        return await response.json();
+async function fetchGamesJson() {
+  try {
+    const response = await fetch(requestURL);
+    if (!response.ok) {
+      throw new Error(`Error en la peticion al JSON ${response.status}`);
     }
-    catch(error)
-    {
-        console.error('Error al obtener los juegos de la API : ', error);
-        return null;
-    }
+    return await response.json();
+  } catch (error) {
+    console.error("Error al obtener los juegos de la API : ", error);
+    return null;
+  }
 }
 
-function createGameCard({id, image, price, platform, descrition})
-{
-    return `
+function createGameCard({ id, image, price, platform, descrition }) {
+  return `
         <div class="card" style="width: 18rem;">
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
@@ -40,20 +34,16 @@ function createGameCard({id, image, price, platform, descrition})
     `;
 }
 
-async function displayGames()
-{
-    const gameSection = document.getElementById('gameSection');
-    const gameData = await fetchGamesJson();
+async function displayGames() {
+  const gameSection = document.getElementById("gameSection");
+  const gameData = await fetchGamesJson();
 
-    if (gameData && gameData.games)
-    {
-        const gameCards = gameData.games.map(createGameCard).join('');
-        gameSection.innerHTML = gameCards;
-    }
-    else
-    {
-        gameSection.innerHTML = `<p>No se ha podido cargar el JSON de los videojuegos</p>`;
-    }
+  if (gameData && gameData.games) {
+    const gameCards = gameData.games.map(createGameCard).join("");
+    gameSection.innerHTML = gameCards;
+  } else {
+    gameSection.innerHTML = `<p>No se ha podido cargar el JSON de los videojuegos</p>`;
+  }
 }
 
 displayGames();
