@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 header {
   background-color: black;
@@ -9,6 +8,7 @@ header {
   justify-content: space-evenly;
   align-items: start;
   height: 100px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .imgLogo {
   height: 80px;
@@ -58,6 +58,7 @@ header {
 main {
   background-color: #6b0505d9;
   height: 1400px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
   background-color: antiquewhite;
@@ -100,4 +101,7 @@ h1 {
   margin-bottom: 25px;
   margin-left: 25px;
   margin-right: 25px;
+}
+footer{
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
