@@ -1,0 +1,69 @@
+{
+    "games" :
+    [
+        {
+            "id": 1,
+            "name": "Stardew Valley",
+            "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1711128146",
+            "price": "10",
+            "platform": "PC (Steam)",
+            "description": "You inherit a farm in ruins, near a town, and you have to make it profitable"
+        },
+        {
+            "id": 2,
+            "name": "Celeste",
+            "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/504230/header.jpg?t=1714089525",
+            "price": "3",
+            "platform": "PC (Steam)",
+            "description": "Help Madeline to survive the hardest mountain climb ever seen"
+        },
+        {
+            "id": 3,
+            "name": "Buckshot Roulette",
+            "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2835570/header.jpg?t=1730435201",
+            "price": "3",
+            "platform": "PC (Steam)",
+            "description": "Play the russian roulette with a .12 buckshot shootgun"
+        },
+        {
+            "id": 4,
+            "name": "Undertale",
+            "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/391540/header.jpg?t=1579096091",
+            "price": "5",
+            "platform": "PC (Steam)",
+            "description": "UNDERTALE! The RPG game where you don't have to destroy anyone"
+        },
+        {
+            "id":5,
+            "name": "The Binding of Isaac: Rebirth",
+            "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/250900/header.jpg?t=1722458438",
+            "price": "10",
+            "platform": "PlayStation 5",
+            "description": "A randomly generated A-RPG shooter with heavy Rogue-like elements"
+        },
+        {
+            "id":6,
+            "name": "Project Zomboid",
+            "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg?t=1691508011",
+            "price": "15",
+            "platform": "Xbox Series X/S, PC (Steam)",
+            "description": "The ultimate zombie survival... How will ytou die? All it takes is a bite..."
+        },
+        {
+            "id":7,
+            "name": "Papers Please",
+            "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/239030/header.jpg?t=1678266428",
+            "price": "5",
+            "platform": "PC (Steam)",
+            "description": "A dystopian document thriller"
+        },
+        {
+            "id":8,
+            "name": "Liar's Bar",
+            "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3097560/header.jpg?t=1728990434",
+            "price": "5",
+            "platform": "PC (Steam)",
+            "description": "Inmerse yourself in a multiplayer online, set on a suspicious bar, where the games are as dangerous as the clients"
+        }
+    ]
+}
